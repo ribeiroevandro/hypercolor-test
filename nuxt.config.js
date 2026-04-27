@@ -13,12 +13,17 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'aeo.js/nuxt'],
   aeo: {
     title: 'Gradients for Tailwind CSS | Hypercolor',
-    url: 'https://hypercolor.dev',
+    url: 'https://hypercolor-test.vercel.app',
     description: 'A curated collection of beautiful Tailwind CSS gradients using the full range of Tailwind CSS colors. Easily copy and paste the class names, CSS or even save the gradients as an image.',
     generators: {
       robotsTxt: true,
       llmsTxt: true,
+      llmsFullTxt: true,
       rawMarkdown: true,
+      manifest: true,
+      sitemap: true,
+      aiIndex: true,
+      schema: true,
     },
     widget: {
       enabled: true,
