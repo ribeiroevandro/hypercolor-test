@@ -25,6 +25,20 @@ export default defineNuxtConfig({
       aiIndex: true,
       schema: true,
     },
+    schema: {
+      organization: {
+        name: 'Hypercolor',
+        url: 'https://hypercolor-test.vercel.app',
+        logo: 'https://hypercolor-test.vercel.app/social.png',
+        sameAs: [
+          'https://github.com/ribeiroevandro/hypercolor-test'
+        ],
+      },
+    },
+    og: {
+      image: 'https://hypercolor-test.vercel.app/social.png',
+      twitterHandle: '@hypercolor',
+    },
     widget: {
       enabled: true,
       position: 'bottom-right',
