@@ -1,8 +1,8 @@
-# Gradients for Tailwind CSS | Hypercolor - Complete Documentation
+# Tailwind CSS Gradients and Generators | Hypercolor - Complete Documentation
 
 This file contains all documentation concatenated into a single file for easy consumption by LLMs.
 
-> A curated collection of beautiful Tailwind CSS gradients using the full range of Tailwind CSS colors. Easily copy and paste the class names, CSS or even save the gradients as an image.
+> Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.
 
 ## Table of Contents
 
@@ -38,6 +38,246 @@ URL: https://hypercolor-test.vercel.app
 # Mesh
 
 URL: https://hypercolor-test.vercel.app/mesh
+
+---
+
+# World Flags
+
+Source: flags.md
+
+> Documentation for the flag-inspired gradient gallery route.
+
+## World Flags
+
+The `/flags` page is a gallery of country and regional flag-inspired gradients. It is a browse-first route rather than a generator.
+
+### What the page shows
+
+- a banner introducing the collection
+- a grid of preset flag-based gradient cards
+- one card per entry in the flag gradient dataset
+
+### How it differs from the homepage
+
+The homepage exposes direction controls on its curated cards. The flags page does not. It presents fixed flag-inspired compositions and focuses on reference browsing instead of remixing direction presets.
+
+### Export behavior
+
+Each card still includes the standard save actions:
+
+- copy Tailwind classes
+- copy CSS
+- download an image
+
+### Data source
+
+The route is powered by `assets/data/gradientsFlag.js`, where each item provides:
+
+- a display name
+- a Tailwind-compatible gradient string
+
+### Supporting files
+
+- route logic lives in `pages/flags.vue`
+- the grid renderer lives in `components/GradientGrid.vue`
+- individual card behavior lives in `components/GradientCard.vue`
+
+
+---
+
+# Gradient Generator
+
+Source: generator.md
+
+> Documentation for the standard Tailwind CSS gradient generator route.
+
+## Gradient Generator
+
+The `/generator` page is the standard custom gradient tool in Hypercolor. It lets users build a Tailwind CSS gradient by combining a direction preset with three color stops.
+
+### Main controls
+
+- one direction selector
+- one `from` color selector
+- one `via` color selector
+- one `to` color selector
+- a randomize action
+
+### How it works
+
+The page assembles the active gradient from:
+
+- a direction class chosen from the shared direction options
+- a `from-*` Tailwind utility
+- a `via-*` Tailwind utility
+- a `to-*` Tailwind utility
+
+If the user randomizes the gradient, the page picks a new direction and new colors from the available option sets.
+
+### Preview behavior
+
+The current combination is rendered through `GeneratorPreview`. The route also includes a second preview panel with editable sample text so users can judge legibility against both light and dark surfaces.
+
+### Export behavior
+
+This route exposes the full standard export set:
+
+- copy Tailwind classes
+- copy CSS background output
+- download the gradient as an image
+
+### Supporting data
+
+- direction presets come from `assets/data/directionOptions.js`
+- available Tailwind gradient colors are built from `assets/data/tailwindColors.js`
+- page logic lives in `pages/generator.vue`
+
+
+---
+
+# Grainy Gradient Generator
+
+Source: grainy.md
+
+> Documentation for the grainy gradient generator route.
+
+## Grainy Gradient Generator
+
+The `/grainy` page uses the same core selection model as the standard generator, but presents the result as a textured background with a grain overlay.
+
+### Main controls
+
+- one direction selector
+- one `from` color selector
+- one `via` color selector
+- one `to` color selector
+- a randomize action
+
+### How it differs from the standard generator
+
+The grainy route still builds its gradient from Tailwind direction and color utilities, but the preview is rendered through `GrainyPreview`, which applies a noise texture over the selected gradient.
+
+This makes the page more suitable for wallpaper-like or atmospheric backgrounds than for plain utility output.
+
+### Preview behavior
+
+- the gradient fills a large rounded canvas
+- a noise overlay sits above the gradient
+- randomization updates both the underlying gradient and the textured result
+
+### Export behavior
+
+This route currently supports:
+
+- download an image
+
+Unlike the standard generator, it does not expose Tailwind class copy or CSS copy actions in the visible controls.
+
+### Supporting data
+
+- direction presets come from `assets/data/directionOptions.js`
+- available color classes are derived from `assets/data/tailwindColors.js`
+- page logic lives in `pages/grainy.vue`
+
+
+---
+
+# Hypercolor Docs
+
+Source: index.md
+
+> Documentation hub for the main Hypercolor routes and their gradient workflows.
+
+## Hypercolor Docs
+
+Hypercolor is a gallery and playground for Tailwind CSS gradients. The documentation in this folder now follows the product routes directly, so each document maps to a page users can actually open in the app.
+
+### Documented routes
+
+- `/` — this index and the homepage experience
+- `/generator` — standard gradient generator
+- `/mesh` — mesh gradient generator
+- `/grainy` — grainy gradient generator
+- `/flags` — world flag gradient gallery
+
+### Homepage experience
+
+The homepage is the discovery-first part of Hypercolor. It presents a grid of curated gradients from the core dataset and gives each card its own controls.
+
+### What users can do on the homepage
+
+- browse the curated gradient collection
+- change the direction of each gradient card
+- copy Tailwind classes from a card
+- copy CSS from a card
+- download a gradient as an image
+
+### Related route docs
+
+- `generator.md` explains the fully custom standard gradient workflow
+- `mesh.md` explains the multi-stop mesh editor
+- `grainy.md` explains the textured gradient workflow
+- `flags.md` explains the static flag-inspired gallery
+
+
+---
+
+# Mesh Gradient Generator
+
+Source: mesh.md
+
+> Documentation for the mesh gradient generator route.
+
+## Mesh Gradient Generator
+
+The `/mesh` page is the most interactive editor in Hypercolor. Instead of a simple linear, conic, or radial class combination, it builds a composed background from a base color plus multiple radial gradient stops.
+
+### Main controls
+
+- a background color selector
+- a toggle to show or hide on-canvas stop controls
+- an action to add a new stop
+- a randomize action
+- a per-stop editor for position, size, and color
+- a remove action for each stop
+
+### Default workflow
+
+On mount, the page randomizes itself and creates six starting stops. Each stop stores:
+
+- a color name
+- a transparent size value
+- a left position
+- a top position
+
+### Preview behavior
+
+The mesh preview renders the generated CSS and can optionally show draggable handles. When controls are visible, users can drag stops directly on the canvas to change their position.
+
+### Export behavior
+
+This route supports:
+
+- copy CSS
+- download an image
+
+It does not expose Tailwind class copying because the result is built from generated inline CSS rather than a simple utility-class string.
+
+### Gradient model
+
+The final background is composed from:
+
+- one background color
+- a comma-separated list of radial gradients
+
+Each radial gradient uses the stop position and size currently stored in the editor state.
+
+### Supporting files
+
+- route logic lives in `pages/mesh.vue`
+- draggable preview behavior lives in `components/MeshPreview.vue`
+- export actions are handled by `components/ActionSave.vue`
+
 
 ---
 

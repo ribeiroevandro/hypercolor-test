@@ -1,6 +1,6 @@
-# Gradients for Tailwind CSS | Hypercolor
+# Tailwind CSS Gradients and Generators | Hypercolor
 
-> A curated collection of beautiful Tailwind CSS gradients using the full range of Tailwind CSS colors. Easily copy and paste the class names, CSS or even save the gradients as an image.
+> Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.
 
 ## About
 
@@ -14,6 +14,33 @@ optimized for consumption by Large Language Models (LLMs) and AI assistants.
 - [Grainy](https://hypercolor-test.vercel.app/grainy)
 - [/](https://hypercolor-test.vercel.app)
 - [Mesh](https://hypercolor-test.vercel.app/mesh)
+
+## Documentation
+
+### flags.md
+
+- [World Flags](https://hypercolor-test.vercel.app/flags)
+  Documentation for the flag-inspired gradient gallery route.
+
+### generator.md
+
+- [Gradient Generator](https://hypercolor-test.vercel.app/generator)
+  Documentation for the standard Tailwind CSS gradient generator route.
+
+### grainy.md
+
+- [Grainy Gradient Generator](https://hypercolor-test.vercel.app/grainy)
+  Documentation for the grainy gradient generator route.
+
+### index.md
+
+- [Hypercolor Docs](https://hypercolor-test.vercel.app/index)
+  Documentation hub for the main Hypercolor routes and their gradient workflows.
+
+### mesh.md
+
+- [Mesh Gradient Generator](https://hypercolor-test.vercel.app/mesh)
+  Documentation for the mesh gradient generator route.
 
 ## Quick Links
 

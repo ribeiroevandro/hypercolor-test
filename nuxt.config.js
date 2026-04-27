@@ -12,9 +12,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/tailwind.css'],
   modules: ['@nuxtjs/tailwindcss', 'aeo.js/nuxt'],
   aeo: {
-    title: 'Gradients for Tailwind CSS | Hypercolor',
+    title: 'Tailwind CSS Gradients and Generators | Hypercolor',
     url: 'https://hypercolor-test.vercel.app',
-    description: 'A curated collection of beautiful Tailwind CSS gradients using the full range of Tailwind CSS colors. Easily copy and paste the class names, CSS or even save the gradients as an image.',
+    description: 'Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.',
     generators: {
       robotsTxt: true,
       llmsTxt: true,
