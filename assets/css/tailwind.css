@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import '~/assets/css/range.css';
+@import 'tailwindcss/utilities';
+
+*:focus {
+  @apply border-transparent outline-none ring-2 ring-pink-500 ring-offset-2 ring-offset-gray-900;
+}
