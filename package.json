@@ -12,7 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "aeo.js": "^0.0.12",
+    "aeo.js": "^0.0.8",
     "core-js": "^3.35.1",
     "nuxt": "^3.10.0"
   },
