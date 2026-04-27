@@ -69,6 +69,26 @@ Each card still includes the standard save actions:
 - copy CSS
 - download an image
 
+### Key numbers
+
+- 38 flag-inspired palettes are available on this route
+- 3 export actions are available on every card
+- 1 gallery route keeps the experience focused on browsing instead of editing
+
+### Frequently asked questions
+
+#### How many flag-inspired palettes are available?
+
+The flag gallery currently includes 38 palettes based on country and regional flag color combinations.
+
+#### Can users customize the flag gradients on this route?
+
+No. The flags route is optimized for browsing preset compositions rather than editing them.
+
+#### What can users export from a flag card?
+
+Users can copy the Tailwind class string, copy the CSS output, and download the visual as an image from each card.
+
 ### Data source
 
 The route is powered by `assets/data/gradientsFlag.js`, where each item provides:
@@ -126,6 +146,38 @@ This route exposes the full standard export set:
 - copy CSS background output
 - download the gradient as an image
 
+### Key numbers
+
+- 3 color stops shape every standard gradient
+- 1 direction selector controls the orientation
+- 201 Tailwind color options are available across the stop pickers
+
+### Step 1: Choose a direction preset
+
+Start with the direction selector so the gradient flows in the exact horizontal, vertical, or diagonal direction you need.
+
+### Step 2: Pick the from, via, and to colors
+
+Use the three stop selectors to build a balanced gradient from the available Tailwind palette.
+
+### Step 3: Export the result
+
+Copy the Tailwind classes, copy the CSS background output, or download an image after the preview matches your target look.
+
+### Frequently asked questions
+
+#### How many color stops does the standard generator use?
+
+The standard generator uses three stops: from, via, and to.
+
+#### What can users export from the generator?
+
+The route supports Tailwind class copy, CSS copy, and image download.
+
+#### Why is the randomize action useful?
+
+It helps users discover strong combinations quickly when they want inspiration without manually testing every direction and color combination.
+
 ### Supporting data
 
 - direction presets come from `assets/data/directionOptions.js`
@@ -173,6 +225,38 @@ This route currently supports:
 
 Unlike the standard generator, it does not expose Tailwind class copy or CSS copy actions in the visible controls.
 
+### Key numbers
+
+- 3 color stops define the underlying gradient
+- 1 grain overlay adds the textured effect
+- 201 Tailwind color options are available across the selectors
+
+### Step 1: Choose the gradient direction
+
+Select a direction preset first so the grain effect sits over the exact flow you want.
+
+### Step 2: Mix the three gradient colors
+
+Pick the from, via, and to colors to create the underlying blend that will show through the texture.
+
+### Step 3: Export the textured result
+
+Use the preview to judge the atmosphere and then download the grainy gradient as an image.
+
+### Frequently asked questions
+
+#### How is the grainy generator different from the standard generator?
+
+The grainy generator uses the same basic gradient controls but adds a visible textured overlay for a more atmospheric result.
+
+#### Can users still control the underlying colors?
+
+Yes. The grain effect sits above the same three-stop Tailwind gradient model, so direction and color choices still control the final look.
+
+#### What export option is available on the grainy route?
+
+The grainy route is optimized for image download so users can create wallpaper-style assets quickly.
+
 ### Supporting data
 
 - direction presets come from `assets/data/directionOptions.js`
@@ -211,6 +295,26 @@ The homepage is the discovery-first part of Hypercolor. It presents a grid of cu
 - copy Tailwind classes from a card
 - copy CSS from a card
 - download a gradient as an image
+
+### Key numbers
+
+- 87 curated gradients are available on the main gallery route
+- 38 flag-inspired palettes are linked from the main experience
+- 201 Tailwind color options power the generators across the site
+
+### Frequently asked questions
+
+#### How many gradients can users browse on Hypercolor?
+
+Users can browse 87 curated gradients on the homepage before they move into the generator, mesh, grainy, or flags routes.
+
+#### What can users export from the homepage?
+
+Each homepage card supports Tailwind class copy, CSS copy, and image download so users can move from exploration to implementation quickly.
+
+#### Why does the homepage help AI search engines understand the product?
+
+The homepage summarizes the full product surface, includes concrete numbers, and links directly to the specialized routes for generation, textures, mesh editing, and flag palettes.
 
 ### Related route docs
 
@@ -271,6 +375,38 @@ The final background is composed from:
 - a comma-separated list of radial gradients
 
 Each radial gradient uses the stop position and size currently stored in the editor state.
+
+### Key numbers
+
+- 6 stops are created by default on first load
+- 201 Tailwind-derived background colors are available to build the mesh
+- 2 export actions are available: CSS copy and image download
+
+### Step 1: Choose the background color
+
+Set the base background color first so the rest of the mesh layers have a stable foundation.
+
+### Step 2: Adjust the mesh stops
+
+Move each stop, edit its size, and change its color until the composition feels balanced.
+
+### Step 3: Export the mesh background
+
+Copy the generated CSS or download the final mesh as an image once the preview matches your design goal.
+
+### Frequently asked questions
+
+#### How many stops does the mesh generator create by default?
+
+The mesh generator starts with six stops so users begin with a rich composition instead of an empty canvas.
+
+#### Can users drag the mesh stops directly on the preview?
+
+Yes. When controls are visible, the preview exposes draggable handles for direct position editing.
+
+#### Why does the mesh route export CSS instead of Tailwind classes?
+
+Mesh gradients are composed from multiple generated radial layers, so inline CSS is the most accurate export format.
 
 ### Supporting files
 

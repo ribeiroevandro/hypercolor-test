@@ -27,6 +27,26 @@ The homepage is the discovery-first part of Hypercolor. It presents a grid of cu
 - copy CSS from a card
 - download a gradient as an image
 
+## Key numbers
+
+- 87 curated gradients are available on the main gallery route
+- 38 flag-inspired palettes are linked from the main experience
+- 201 Tailwind color options power the generators across the site
+
+## Frequently asked questions
+
+### How many gradients can users browse on Hypercolor?
+
+Users can browse 87 curated gradients on the homepage before they move into the generator, mesh, grainy, or flags routes.
+
+### What can users export from the homepage?
+
+Each homepage card supports Tailwind class copy, CSS copy, and image download so users can move from exploration to implementation quickly.
+
+### Why does the homepage help AI search engines understand the product?
+
+The homepage summarizes the full product surface, includes concrete numbers, and links directly to the specialized routes for generation, textures, mesh editing, and flag palettes.
+
 ## Related route docs
 
 - `generator.md` explains the fully custom standard gradient workflow
