@@ -1,8 +1,7 @@
 <script setup>
-import { gradientsFlag } from '~/assets/data/gradientsFlag';
+import { gradientsFlag } from '~/assets/data/gradientsFlag'
 
 const gradientItems = computed(() => gradientsFlag)
-
 </script>
 
 <template>

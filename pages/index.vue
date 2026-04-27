@@ -1,8 +1,7 @@
 <script setup>
-import { gradientsCore } from '~/assets/data/gradientsCore';
+import { gradientsCore } from '~/assets/data/gradientsCore'
 
 const gradientItems = computed(() => gradientsCore)
-
 </script>
 
 <template>
