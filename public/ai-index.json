@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-27T15:33:11.853Z",
+  "generated": "2026-04-27T15:51:04.662Z",
   "site": {
     "title": "Tailwind CSS Gradients and Generators | Hypercolor",
     "description": "Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.",
@@ -37,7 +37,7 @@
         "description": "Documentation for the mesh gradient generator route.",
         "chunkIndex": 0,
         "totalChunks": 1,
-        "sourcePath": "docs/mesh.md"
+        "sourcePath": "docs/mesh.mdx"
       }
     },
     {
@@ -63,7 +63,7 @@
         "description": "Documentation hub for the main Hypercolor routes and their gradient workflows.",
         "chunkIndex": 0,
         "totalChunks": 1,
-        "sourcePath": "docs/index.md"
+        "sourcePath": "docs/index.mdx"
       }
     },
     {
@@ -103,7 +103,7 @@
         "description": "Documentation for the flag-inspired gradient gallery route.",
         "chunkIndex": 0,
         "totalChunks": 1,
-        "sourcePath": "docs/flags.md"
+        "sourcePath": "docs/flags.mdx"
       }
     },
     {
@@ -136,7 +136,7 @@
         "description": "Documentation for the standard Tailwind CSS gradient generator route.",
         "chunkIndex": 0,
         "totalChunks": 1,
-        "sourcePath": "docs/generator.md"
+        "sourcePath": "docs/generator.mdx"
       }
     },
     {
@@ -162,7 +162,7 @@
         "description": "Documentation for the grainy gradient generator route.",
         "chunkIndex": 0,
         "totalChunks": 1,
-        "sourcePath": "docs/grainy.md"
+        "sourcePath": "docs/grainy.mdx"
       }
     },
     {
