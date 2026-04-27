@@ -5,7 +5,7 @@
       "@type": "WebSite",
       "name": "Tailwind CSS Gradients and Generators | Hypercolor",
       "description": "Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.",
-      "url": "http://localhost:3000"
+      "url": "https://hypercolor-test.vercel.app"
     },
     {
       "@context": "https://schema.org",
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Flags",
-        "url": "http://localhost:3000/flags"
+        "url": "https://hypercolor-test.vercel.app/flags"
       },
       {
         "@context": "https://schema.org",
@@ -34,13 +34,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "http://localhost:3000/"
+            "item": "https://hypercolor-test.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Flags",
-            "item": "http://localhost:3000/flags"
+            "item": "https://hypercolor-test.vercel.app/flags"
           }
         ]
       }
@@ -50,7 +50,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Generator",
-        "url": "http://localhost:3000/generator"
+        "url": "https://hypercolor-test.vercel.app/generator"
       },
       {
         "@context": "https://schema.org",
@@ -60,13 +60,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "http://localhost:3000/"
+            "item": "https://hypercolor-test.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Generator",
-            "item": "http://localhost:3000/generator"
+            "item": "https://hypercolor-test.vercel.app/generator"
           }
         ]
       }
@@ -76,7 +76,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Grainy",
-        "url": "http://localhost:3000/grainy"
+        "url": "https://hypercolor-test.vercel.app/grainy"
       },
       {
         "@context": "https://schema.org",
@@ -86,13 +86,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "http://localhost:3000/"
+            "item": "https://hypercolor-test.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Grainy",
-            "item": "http://localhost:3000/grainy"
+            "item": "https://hypercolor-test.vercel.app/grainy"
           }
         ]
       }
@@ -102,7 +102,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Tailwind CSS Gradients and Generators | Hypercolor",
-        "url": "http://localhost:3000"
+        "url": "https://hypercolor-test.vercel.app"
       }
     ],
     "/mesh": [
@@ -110,7 +110,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Mesh",
-        "url": "http://localhost:3000/mesh"
+        "url": "https://hypercolor-test.vercel.app/mesh"
       },
       {
         "@context": "https://schema.org",
@@ -120,13 +120,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "http://localhost:3000/"
+            "item": "https://hypercolor-test.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Mesh",
-            "item": "http://localhost:3000/mesh"
+            "item": "https://hypercolor-test.vercel.app/mesh"
           }
         ]
       }
