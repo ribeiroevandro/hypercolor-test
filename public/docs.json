@@ -1,60 +1,60 @@
 {
   "version": "1.0",
-  "generated": "2026-04-27T15:51:04.660Z",
+  "generated": "2026-04-27T16:54:43.666Z",
   "site": {
     "title": "Tailwind CSS Gradients and Generators | Hypercolor",
     "description": "Browse 87 ready-made Tailwind CSS gradients, 38 flag palettes, and interactive mesh, grainy, and standard generators with 201 color options.",
-    "url": "https://hypercolor-test.vercel.app"
+    "url": "http://localhost:3000"
   },
   "documents": [
     {
-      "url": "https://hypercolor-test.vercel.app",
+      "url": "http://localhost:3000",
       "title": "/"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/docs/flags",
+      "url": "http://localhost:3000/docs/flags",
       "title": "World Flags",
       "description": "Documentation for the flag-inspired gradient gallery route.",
       "lastModified": "2026-04-27T15:04:22.188Z"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/docs/generator",
+      "url": "http://localhost:3000/docs/generator",
       "title": "Gradient Generator",
       "description": "Documentation for the standard Tailwind CSS gradient generator route.",
       "lastModified": "2026-04-27T15:04:22.186Z"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/docs/grainy",
+      "url": "http://localhost:3000/docs/grainy",
       "title": "Grainy Gradient Generator",
       "description": "Documentation for the grainy gradient generator route.",
       "lastModified": "2026-04-27T15:04:22.187Z"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/docs/index",
+      "url": "http://localhost:3000/docs/index",
       "title": "Hypercolor Docs",
       "description": "Documentation hub for the main Hypercolor routes and their gradient workflows.",
       "lastModified": "2026-04-27T15:04:22.185Z"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/docs/mesh",
+      "url": "http://localhost:3000/docs/mesh",
       "title": "Mesh Gradient Generator",
       "description": "Documentation for the mesh gradient generator route.",
       "lastModified": "2026-04-27T15:04:22.187Z"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/flags",
+      "url": "http://localhost:3000/flags",
       "title": "Flags"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/generator",
+      "url": "http://localhost:3000/generator",
       "title": "Generator"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/grainy",
+      "url": "http://localhost:3000/grainy",
       "title": "Grainy"
     },
     {
-      "url": "https://hypercolor-test.vercel.app/mesh",
+      "url": "http://localhost:3000/mesh",
       "title": "Mesh"
     }
   ],

@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hypercolor-test.vercel.app</loc>
+    <loc>http://localhost:3000</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/docs/flags</loc>
+    <loc>http://localhost:3000/docs/flags</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/docs/generator</loc>
+    <loc>http://localhost:3000/docs/generator</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/docs/grainy</loc>
+    <loc>http://localhost:3000/docs/grainy</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/docs/index</loc>
+    <loc>http://localhost:3000/docs/index</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/docs/mesh</loc>
+    <loc>http://localhost:3000/docs/mesh</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/flags</loc>
+    <loc>http://localhost:3000/flags</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/generator</loc>
+    <loc>http://localhost:3000/generator</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/grainy</loc>
+    <loc>http://localhost:3000/grainy</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hypercolor-test.vercel.app/mesh</loc>
+    <loc>http://localhost:3000/mesh</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
