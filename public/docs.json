@@ -1,30 +1,30 @@
 {
   "version": "1.0",
-  "generated": "2026-04-27T11:42:37.064Z",
+  "generated": "2026-04-27T12:05:30.277Z",
   "site": {
     "title": "Gradients for Tailwind CSS | Hypercolor",
     "description": "A curated collection of beautiful Tailwind CSS gradients using the full range of Tailwind CSS colors. Easily copy and paste the class names, CSS or even save the gradients as an image.",
-    "url": "https://hypercolor.dev"
+    "url": "https://hypercolor-test.vercel.app"
   },
   "documents": [
     {
-      "url": "https://hypercolor.dev",
+      "url": "https://hypercolor-test.vercel.app",
       "title": "/"
     },
     {
-      "url": "https://hypercolor.dev/flags",
+      "url": "https://hypercolor-test.vercel.app/flags",
       "title": "Flags"
     },
     {
-      "url": "https://hypercolor.dev/generator",
+      "url": "https://hypercolor-test.vercel.app/generator",
       "title": "Generator"
     },
     {
-      "url": "https://hypercolor.dev/grainy",
+      "url": "https://hypercolor-test.vercel.app/grainy",
       "title": "Grainy"
     },
     {
-      "url": "https://hypercolor.dev/mesh",
+      "url": "https://hypercolor-test.vercel.app/mesh",
       "title": "Mesh"
     }
   ],

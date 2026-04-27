@@ -163,11 +163,11 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://hypercolor.dev/sitemap.xml
+Sitemap: https://hypercolor-test.vercel.app/sitemap.xml
 
 # AEO (Answer Engine Optimization) files
 # These help LLMs understand your content better
-# https://hypercolor.dev/llms.txt
-# https://hypercolor.dev/llms-full.txt
-# https://hypercolor.dev/docs.json
-# https://hypercolor.dev/ai-index.json
+# https://hypercolor-test.vercel.app/llms.txt
+# https://hypercolor-test.vercel.app/llms-full.txt
+# https://hypercolor-test.vercel.app/docs.json
+# https://hypercolor-test.vercel.app/ai-index.json
