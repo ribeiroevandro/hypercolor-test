@@ -43,7 +43,7 @@ URL: https://hypercolor-test.vercel.app/mesh
 
 # World Flags
 
-Source: flags.md
+Source: docs/flags.md
 
 > Documentation for the flag-inspired gradient gallery route.
 
@@ -87,7 +87,7 @@ The route is powered by `assets/data/gradientsFlag.js`, where each item provides
 
 # Gradient Generator
 
-Source: generator.md
+Source: docs/generator.md
 
 > Documentation for the standard Tailwind CSS gradient generator route.
 
@@ -137,7 +137,7 @@ This route exposes the full standard export set:
 
 # Grainy Gradient Generator
 
-Source: grainy.md
+Source: docs/grainy.md
 
 > Documentation for the grainy gradient generator route.
 
@@ -184,7 +184,7 @@ Unlike the standard generator, it does not expose Tailwind class copy or CSS cop
 
 # Hypercolor Docs
 
-Source: index.md
+Source: docs/index.md
 
 > Documentation hub for the main Hypercolor routes and their gradient workflows.
 
@@ -224,7 +224,7 @@ The homepage is the discovery-first part of Hypercolor. It presents a grid of cu
 
 # Mesh Gradient Generator
 
-Source: mesh.md
+Source: docs/mesh.md
 
 > Documentation for the mesh gradient generator route.
 

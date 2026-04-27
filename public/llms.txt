@@ -17,29 +17,17 @@ optimized for consumption by Large Language Models (LLMs) and AI assistants.
 
 ## Documentation
 
-### flags.md
+### docs
 
-- [World Flags](https://hypercolor-test.vercel.app/flags)
+- [World Flags](https://hypercolor-test.vercel.app/docs/flags)
   Documentation for the flag-inspired gradient gallery route.
-
-### generator.md
-
-- [Gradient Generator](https://hypercolor-test.vercel.app/generator)
+- [Gradient Generator](https://hypercolor-test.vercel.app/docs/generator)
   Documentation for the standard Tailwind CSS gradient generator route.
-
-### grainy.md
-
-- [Grainy Gradient Generator](https://hypercolor-test.vercel.app/grainy)
+- [Grainy Gradient Generator](https://hypercolor-test.vercel.app/docs/grainy)
   Documentation for the grainy gradient generator route.
-
-### index.md
-
-- [Hypercolor Docs](https://hypercolor-test.vercel.app/index)
+- [Hypercolor Docs](https://hypercolor-test.vercel.app/docs/index)
   Documentation hub for the main Hypercolor routes and their gradient workflows.
-
-### mesh.md
-
-- [Mesh Gradient Generator](https://hypercolor-test.vercel.app/mesh)
+- [Mesh Gradient Generator](https://hypercolor-test.vercel.app/docs/mesh)
   Documentation for the mesh gradient generator route.
 
 ## Quick Links
