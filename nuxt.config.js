@@ -20,12 +20,12 @@ export default defineNuxtConfig({
       llmsTxt: true,
       llmsFullTxt: true,
       rawMarkdown: true,
-      manifest: true,
       sitemap: true,
       aiIndex: true,
       schema: true,
     },
     schema: {
+      enabled: true,
       organization: {
         name: 'Hypercolor',
         url: 'https://hypercolor-test.vercel.app',
@@ -34,10 +34,13 @@ export default defineNuxtConfig({
           'https://github.com/ribeiroevandro/hypercolor-test'
         ],
       },
+      defaultType: 'WebPage',
     },
     og: {
+      enabled: true,
       image: 'https://hypercolor-test.vercel.app/social.png',
       twitterHandle: '@hypercolor',
+      type: 'website',
     },
     widget: {
       enabled: true,
