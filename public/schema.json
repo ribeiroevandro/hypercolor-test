@@ -10,8 +10,12 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Gradients for Tailwind CSS | Hypercolor",
-      "url": "https://hypercolor-test.vercel.app"
+      "name": "Hypercolor",
+      "url": "https://hypercolor-test.vercel.app",
+      "logo": "https://hypercolor-test.vercel.app/social.png",
+      "sameAs": [
+        "https://github.com/ribeiroevandro/hypercolor-test"
+      ]
     }
   ],
   "pages": {
