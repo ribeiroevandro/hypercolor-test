@@ -47,6 +47,38 @@ The final background is composed from:
 
 Each radial gradient uses the stop position and size currently stored in the editor state.
 
+## Key numbers
+
+- 6 stops are created by default on first load
+- 201 Tailwind-derived background colors are available to build the mesh
+- 2 export actions are available: CSS copy and image download
+
+## Step 1: Choose the background color
+
+Set the base background color first so the rest of the mesh layers have a stable foundation.
+
+## Step 2: Adjust the mesh stops
+
+Move each stop, edit its size, and change its color until the composition feels balanced.
+
+## Step 3: Export the mesh background
+
+Copy the generated CSS or download the final mesh as an image once the preview matches your design goal.
+
+## Frequently asked questions
+
+### How many stops does the mesh generator create by default?
+
+The mesh generator starts with six stops so users begin with a rich composition instead of an empty canvas.
+
+### Can users drag the mesh stops directly on the preview?
+
+Yes. When controls are visible, the preview exposes draggable handles for direct position editing.
+
+### Why does the mesh route export CSS instead of Tailwind classes?
+
+Mesh gradients are composed from multiple generated radial layers, so inline CSS is the most accurate export format.
+
 ## Supporting files
 
 - route logic lives in `pages/mesh.vue`

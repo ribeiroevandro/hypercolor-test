@@ -25,6 +25,26 @@ Each card still includes the standard save actions:
 - copy CSS
 - download an image
 
+## Key numbers
+
+- 38 flag-inspired palettes are available on this route
+- 3 export actions are available on every card
+- 1 gallery route keeps the experience focused on browsing instead of editing
+
+## Frequently asked questions
+
+### How many flag-inspired palettes are available?
+
+The flag gallery currently includes 38 palettes based on country and regional flag color combinations.
+
+### Can users customize the flag gradients on this route?
+
+No. The flags route is optimized for browsing preset compositions rather than editing them.
+
+### What can users export from a flag card?
+
+Users can copy the Tailwind class string, copy the CSS output, and download the visual as an image from each card.
+
 ## Data source
 
 The route is powered by `assets/data/gradientsFlag.js`, where each item provides:
