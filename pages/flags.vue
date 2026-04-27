@@ -1,15 +1,8 @@
 <script setup>
-import { flagTitle, siteSeo } from '~/assets/data/siteSeo'
-import { gradientsFlag } from '~/assets/data/gradientsFlag'
+import { gradientsFlag } from '~/assets/data/gradientsFlag';
 
 const gradientItems = computed(() => gradientsFlag)
 
-useSeoMeta({
-  ...siteSeo,
-  title: flagTitle,
-  ogTitle: flagTitle,
-  twitterTitle: flagTitle,
-})
 </script>
 
 <template>

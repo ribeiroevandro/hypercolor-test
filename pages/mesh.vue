@@ -1,5 +1,4 @@
 <script setup>
-import { meshTitle, siteSeo } from '~/assets/data/siteSeo'
 import { getBackgroundColor } from '~/utils/getColor'
 import { createColorClasses } from '~/utils/createColors'
 
@@ -97,13 +96,6 @@ function getGradient() {
       .join(', ')};
   `
 }
-
-useSeoMeta({
-  ...siteSeo,
-  title: meshTitle,
-  ogTitle: meshTitle,
-  twitterTitle: meshTitle,
-})
 </script>
 
 <template>

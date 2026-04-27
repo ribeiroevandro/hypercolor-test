@@ -1,12 +1,8 @@
 <script setup>
-import { siteSeo } from '~/assets/data/siteSeo'
-import { gradientsCore } from '~/assets/data/gradientsCore'
+import { gradientsCore } from '~/assets/data/gradientsCore';
 
 const gradientItems = computed(() => gradientsCore)
 
-useSeoMeta({
-  ...siteSeo,
-})
 </script>
 
 <template>

@@ -1,5 +1,4 @@
 <script setup>
-import { generatorTitle, siteSeo } from '~/assets/data/siteSeo'
 import { createColorClasses } from '~/utils/createColors'
 import { getDirections } from '~/utils/getDirections'
 
@@ -32,13 +31,6 @@ function handleRandomiser() {
   currentVia.value = getRandom(viaColors.value)
   currentTo.value = getRandom(toColors.value)
 }
-
-useSeoMeta({
-  ...siteSeo,
-  title: generatorTitle,
-  ogTitle: generatorTitle,
-  twitterTitle: generatorTitle,
-})
 </script>
 
 <template>

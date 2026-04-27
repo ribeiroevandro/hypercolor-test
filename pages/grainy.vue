@@ -1,5 +1,4 @@
 <script setup>
-import { grainyTitle, siteSeo } from '~/assets/data/siteSeo'
 import { getDirections } from '~/utils/getDirections'
 import { createColorClasses } from '~/utils/createColors'
 
@@ -32,13 +31,6 @@ function handleRandomiser() {
   currentVia.value = getRandom(viaColors.value)
   currentTo.value = getRandom(toColors.value)
 }
-
-useSeoMeta({
-  ...siteSeo,
-  title: grainyTitle,
-  ogTitle: grainyTitle,
-  twitterTitle: grainyTitle,
-})
 </script>
 
 <template>
